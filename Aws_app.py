@@ -9,8 +9,8 @@ app.secret_key = os.environ.get('SECRET_KEY', 'default-secret-key')
 
 # AWS Configuration
 AWS_REGION = 'us-east-1'
-USERS_TABLE = 'fixitnow_user'
-SERVICES_TABLE = 'fixitnow_service'
+USERS_TABLE = 'travel_user'
+SERVICES_TABLE = 'travel_service'
 SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:604665149129:fixitnow_Topic"
 
 # Initialize AWS services
